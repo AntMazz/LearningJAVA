@@ -19,6 +19,8 @@ public class DollarGame {
         System.out.println("Enter the number of quarters: ");
         int numberQuarters = scanner.nextInt();
 
+        scanner.close();
+
         double totalPennies = pennies * numberPennies;
         double totalNickels = nickels * numberNickels;
         double totalDimes = dimes * numberDimes;
